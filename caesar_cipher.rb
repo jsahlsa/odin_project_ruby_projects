@@ -16,13 +16,12 @@ def caesar_cipher(str, int)
         # if lowercase convert it
         if (ascii_char >= 97 && ascii_char <= 122)
             base_lower = 97
-            # alpha_index_lower = ascii_char - base_lower
-            # new_ascii_w_shift = (alpha_index_lower + int) % 26
-            # (new_ascii_w_shift + base_lower).chr
             convert_char(ascii_char, base_lower, int)
+        # if uppercase convert it
         elsif (ascii_char >= 65 && ascii_char <= 90)
             base_upper = 65
             convert_char(ascii_char, base_upper, int)
+        # if its not alpha leave it alone
         else
             char
         end
