@@ -14,6 +14,4 @@ def sub_strings(str, dict)
     hash
 end
 
-puts "Howdy partner, sit down! How's it going?".count("Howdy")
-
 sub_strings("Howdy partner, sit down! How's it going?", dictionary)
