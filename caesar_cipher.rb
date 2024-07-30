@@ -27,7 +27,7 @@ def caesar_cipher(str, int)
         end
             
     end
-    p caesar_array
+    p caesar_array.join
 end
 
 caesar_cipher(string, shift)
